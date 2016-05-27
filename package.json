@@ -1,0 +1,10 @@
+{
+  "name": "psi-machine",
+  "version": "1.0.0",
+  "description": "Check a list of urls against Google PageSpeed Index API.",
+  "author": "Brandon Stephens",
+  "license": "ISC",
+  "devDependencies": {
+    "psi": "^2.0.3"
+  }
+}
