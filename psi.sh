@@ -19,7 +19,7 @@ sed -i '' -e '$a\' $LOCAL_ROOT/urls.txt
 mkdir $START_DIR
 cd $START_DIR
 
-while read line; do psi --format=json "$line"; done < $LOCAL_ROOT/urls.txt >> "$line".html
+while read line; do psi --format=json "$line"; done < $LOCAL_ROOT/urls.txt >> psi.json
 
 cd $LOCAL_ROOT
 
